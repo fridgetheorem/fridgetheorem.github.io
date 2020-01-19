@@ -1,0 +1,5 @@
+:local(.Card){
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}

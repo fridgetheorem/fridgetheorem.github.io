@@ -1,0 +1,29 @@
+:local(.Taskbar){
+    top: 0;
+    left: 0; 
+    height:90px;
+    width: 100%;
+
+    flex-direction: row;
+    flex-flow: row nowrap;
+    display: flex;
+
+    font-size: medium;
+
+    background: -webkit-linear-gradient(to bottom left, #48a9c7, #2d629c) !important;
+    background: linear-gradient(to left, #48a9c7, #9129b1) !important;
+
+    color: #ddd;
+    box-shadow: 0px 5px 20px 3px #fff;
+}
+
+:local(.Title){
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+:local(.Link){
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+}

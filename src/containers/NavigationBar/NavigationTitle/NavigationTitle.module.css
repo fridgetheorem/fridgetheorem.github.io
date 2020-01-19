@@ -1,0 +1,16 @@
+:local(.NavigationTitle){
+    font-size: 25px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-family:'Raleway';
+}
+:local(.Text){
+    background-color: rgb(61, 18, 102);
+    padding: 8px;
+    padding-bottom: 10px !important;
+    opacity: 100%;
+    border-radius: 15px;
+    color: #ccc
+}
