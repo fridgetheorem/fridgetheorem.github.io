@@ -10,8 +10,7 @@
 
     font-size: medium;
 
-    background: -webkit-linear-gradient(to bottom left, #48a9c7, #2d629c) !important;
-    background: linear-gradient(to left, #48a9c7, #9129b1) !important;
+    background-color: rgba(46, 82, 99, 0.507);
 
     color: #ddd;
     box-shadow: 0px 5px 20px 3px #fff;

@@ -1,5 +1,5 @@
 :local(.HomePage){
-    border-top-left-radius: 20px;
-    width:100%;
-    background-color: #777;
+    padding:10px;
+    display:table;
+    table-layout: auto;
 }

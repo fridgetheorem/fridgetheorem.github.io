@@ -6,11 +6,54 @@
 
     font-family:'Raleway';
 }
+:local(.NavigationTitle:hover){
+    text-shadow: 0px 0px 8px rgb(15, 166, 226) !important;
+}
 :local(.Text){
     background-color: rgb(61, 18, 102);
     padding: 8px;
     padding-bottom: 10px !important;
     opacity: 100%;
     border-radius: 15px;
-    color: #ccc
+    color: rgb(61, 16, 102, 0);
+    box-shadow:0px 0px 8px 2px #888;
+    text-shadow: 0px 0px 8px rgb(15, 166, 226);
+    animation: textglow 5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+}
+:local(.Text:hover){
+    animation:0;
+    text-shadow: 0px 0px 1px rgb(15, 166, 226);
+}
+@keyframes textglow{
+    0%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0);
+    }
+    2%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.3);
+    }
+    9%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.2);
+    }
+    15%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 1);
+    }
+    59%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 1);
+    }
+    60%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.4);
+    }
+
+    66%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0);
+    }
+    70%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.8);
+    }
+    50%{
+        text-shadow: 0px 0px 8px rgba(15, 166, 226, 1);
+    }
+    100%{
+        text-shadow: 0px 0px 1px rgba(15, 166, 226,0 );
+    }
 }
