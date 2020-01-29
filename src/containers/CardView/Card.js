@@ -3,10 +3,9 @@ import classes from './Card.module.css';
 
 class Card extends Component{
 
-
     render(){
         return(
-            <div className={classes.Card}>
+            <div>
                 <div className={classes.Title}>
                     {this.props.title}
                 </div>

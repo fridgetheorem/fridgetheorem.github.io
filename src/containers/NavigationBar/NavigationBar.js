@@ -9,9 +9,9 @@ class NavigationBar extends Component{
         return(
             <div className={classes.Taskbar}>
                 <NavigationTitle> CAMERON HADFIELD </NavigationTitle>
-                <NavigationElem> Home </NavigationElem>
-                <NavigationElem> Resume </NavigationElem>
-                <NavigationElem> Projects </NavigationElem>
+                <NavigationElem href="/"> Home </NavigationElem>
+                <NavigationElem href="/work"> Resume </NavigationElem>
+                <NavigationElem href="/projects"> Projects </NavigationElem>
             </div>
         );
     }

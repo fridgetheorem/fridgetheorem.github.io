@@ -3,3 +3,9 @@
     display:table;
     table-layout: auto;
 }
+:local(.Main){
+    border-bottom: 1px dashed rgba(204, 204, 204, 0.479);
+}
+:local(.Info){
+    padding:10px;
+}

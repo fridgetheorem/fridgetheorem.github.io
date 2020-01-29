@@ -10,10 +10,23 @@
 
     font-size: medium;
 
-    background-color: rgba(46, 82, 99, 0.507);
+    background-color: rgba(78, 143, 175, 0.377);
 
     color: #ddd;
-    box-shadow: 0px 5px 20px 3px #fff;
+    box-shadow: 0px 2px 15px 1px #fff;
+    animation: shadowPulse 8s infinite;
+}
+
+@keyframes shadowPulse{
+    0%{
+        box-shadow: 0px 2px 15px 1px #fff;
+    }
+    50%{
+        box-shadow: 0px 1px 10px 0px #fff;
+    }
+    100%{
+        box-shadow: 0px 2px 15px 1px #fff;
+    }
 }
 
 :local(.Title){

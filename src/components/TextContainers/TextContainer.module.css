@@ -1,0 +1,17 @@
+:local(.TextContainer){
+    margin: 20px;
+    padding: 15px;
+
+    opacity: 70%; 
+    background: linear-gradient(to bottom,rgb(34, 49, 68), rgb(23, 36, 53));
+    color:#eee; 
+    box-shadow: 0px 0px 4px 1px #eee;
+
+    border-radius: 5px;
+    align-content: center;
+    transition: box-shadow .2s, opacity .4s;
+}
+:local(.TextContainer:hover){
+    opacity: 100%;
+    box-shadow: 0px 0px 2px 0px #eee;
+}
