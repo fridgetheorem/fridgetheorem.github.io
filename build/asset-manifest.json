@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8dec918.chunk.css",
+    "main.js": "/static/js/main.f3e4f850.chunk.js",
+    "main.js.map": "/static/js/main.f3e4f850.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d825958a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d825958a.js.map",
+    "static/js/2.0def30d7.chunk.js": "/static/js/2.0def30d7.chunk.js",
+    "static/js/2.0def30d7.chunk.js.map": "/static/js/2.0def30d7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.70cf2b97f326c6a30f106c7f9d6fc91e.js": "/precache-manifest.70cf2b97f326c6a30f106c7f9d6fc91e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e8dec918.chunk.css.map": "/static/css/main.e8dec918.chunk.css.map",
+    "static/js/2.0def30d7.chunk.js.LICENSE": "/static/js/2.0def30d7.chunk.js.LICENSE",
+    "static/media/BellAndHowell.png": "/static/media/BellAndHowell.b56df871.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d825958a.js",
+    "static/js/2.0def30d7.chunk.js",
+    "static/css/main.e8dec918.chunk.css",
+    "static/js/main.f3e4f850.chunk.js"
+  ]
+}
