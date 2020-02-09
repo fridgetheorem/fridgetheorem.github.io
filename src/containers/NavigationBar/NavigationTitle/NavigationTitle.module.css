@@ -10,55 +10,60 @@
     text-shadow: 0px 0px 8px rgb(15, 166, 226) !important;
 }
 :local(.Text){
-    background-color: rgb(61, 18, 102);
+    background-color: rgba(19, 9, 153, 0.644);
     padding: 8px;
     padding-bottom: 10px !important;
     opacity: 100%;
     border-radius: 15px;
     color: rgb(61, 16, 102, 0);
-    box-shadow:0px 0px 8px 2px #888;
-    text-shadow: 0px 0px 8px rgb(15, 166, 226);
+    text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.404);
     transition: text-shadow .6s;
+    border: 2px  #0b7ce6be;
+    animation:glowaround 2s linear infinite;
 }
 :local(.Text:hover){
-    animation:0;
+    animation: 0;
     text-shadow: 0px 0px 1px rgb(15, 166, 226);
+    box-shadow: inset 0px 0px 5px 1px #0b7ce6;
 }
-@keyframes nameFocus{
-    from{
-
-    }
-}
-@keyframes textglow{
+@keyframes glowaround{
     0%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0);
+        box-shadow: 1px 0px 5px 1px  #0b7ce6 ;
     }
-    2%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.3);
+    10%{
+        box-shadow: 1px 1px 5px 1px #0b7ce6 ;
     }
-    9%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.2);
+    20%{
+        box-shadow: 0.5px 1px 5px 1px #0b7ce6 ;
     }
-    15%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 1);
+    25%{
+        box-shadow: 0px 1px 5px 1px #0b7ce6 ;
     }
-    59%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 1);
+    30%{
+        box-shadow: -0.5px 1px 5px 1px #0b7ce6 ;
     }
-    60%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.4);
-    }
-
-    66%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0);
-    }
-    70%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226, 0.8);
+    40%{
+        box-shadow: -1px 1px 5px 1px #0b7ce6 ;
     }
     50%{
-        text-shadow: 0px 0px 8px rgba(15, 166, 226, 1);
+        box-shadow: -1px 0px 5px 1px #0b7ce6 ;
+    }
+    60%{
+        box-shadow: -1px -1px 5px 1px #0b7ce6 ;
+    }
+    70%{
+        box-shadow: -0.5px -1px 5px 1px #0b7ce6 ;
+    }
+    75%{
+        box-shadow: 0px -1px 5px 1px #0b7ce6 ;
+    }
+    80%{
+        box-shadow: 0.5px -1px 5px 1px #0b7ce6 ;
+    } 
+    90%{
+        box-shadow: 1px -1px 5px 1px #0b7ce6 ;
     }
     100%{
-        text-shadow: 0px 0px 1px rgba(15, 166, 226,0 );
+        box-shadow: 1px 0px 5px 1px #0b7ce6 ;
     }
 }

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import NavigationElem from './NavigationElem/NavigationElem';
 import NavigationTitle from './NavigationTitle/NavigationTitle';
 import classes from './Navigationbar.module.css';
+import NavigationItems from './NavigationItems/NavigationItems';
 
 class NavigationBar extends Component{
 
@@ -9,9 +10,11 @@ class NavigationBar extends Component{
         return(
             <div className={classes.Taskbar}>
                 <NavigationTitle> CAMERON HADFIELD </NavigationTitle>
-                <NavigationElem href="/"> Home </NavigationElem>
-                <NavigationElem href="/work"> Resume </NavigationElem>
-                <NavigationElem href="/projects"> Projects </NavigationElem>
+                <NavigationItems>
+                    <NavigationElem href="/"> Home </NavigationElem>
+                    <NavigationElem href="/work"> Resume </NavigationElem>
+                    <NavigationElem href="/projects"> Projects </NavigationElem>
+                </NavigationItems>
             </div>
         );
     }

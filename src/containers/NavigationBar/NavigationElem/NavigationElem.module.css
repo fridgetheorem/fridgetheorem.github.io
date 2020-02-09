@@ -1,13 +1,24 @@
 :local(.NavigationElem){
-    margin-bottom: 20px;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-bottom:0px;
-    padding-left:4px;
-    padding-right:4px;
-    padding-top: 23px;
+    width: auto;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    
+    border-radius: 12px;
+
+    margin-bottom: 8px;
 
     cursor: pointer;
+    
+
+
+    position: relative;
+    top: 23%;
+
+
 }
 :local(.NavigationElem:hover){
     background: radial-gradient(circle at bottom, rgba(200, 200, 200, .4), rgba(200, 200, 200, .0));

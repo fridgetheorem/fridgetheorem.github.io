@@ -4,7 +4,7 @@
     table-layout: auto;
 }
 :local(.Main){
-    border-bottom: 1px dashed rgba(204, 204, 204, 0.479);
+    padding-bottom: 5px;
 }
 :local(.Info){
     padding:10px;

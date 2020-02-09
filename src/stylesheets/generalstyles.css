@@ -1,0 +1,32 @@
+.header-wrapper{
+    background-color: #7c797973;
+    text-align: center;
+}
+.header{
+    color:white;
+    font-size: 23px;
+}
+.body-wrapper{
+    background-color: #7c797973;
+    text-align: left;
+}
+.body{
+    font-size: 18px;
+    color:#eee
+}
+
+.align-center{
+    text-align: center;
+}
+.span-width{
+    width: 100%;
+}
+.small-padding{
+    padding: 5px;
+}
+.medium-padding{
+    padding: 15px;
+}
+.large-padding{
+    padding: 30px;
+}
