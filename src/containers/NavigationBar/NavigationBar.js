@@ -9,7 +9,7 @@ class NavigationBar extends Component{
     render(){
         return(
             <div className={classes.Taskbar}>
-                <NavigationTitle> CAMERON HADFIELD </NavigationTitle>
+                <NavigationTitle> CH </NavigationTitle>
                 <NavigationItems>
                     <NavigationElem href="/"> Home </NavigationElem>
                     <NavigationElem href="/work"> Resume </NavigationElem>

@@ -1,25 +1,63 @@
 .header-wrapper{
-    background-color: #7c797973;
     text-align: center;
 }
 .header{
     color:white;
     font-size: 23px;
 }
+.header-dark{
+    color:#111;
+    font-size: 23px;
+}
+.subtitle{
+    color:#bbb;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.title-background{
+    padding: 1em;
+    background-color: #11111199;
+    
+    border-radius: 4px;
+}
+
+.body-background{
+    padding: .5em;
+    background-color: #111111bb;
+
+    border-radius: 4px;
+}
+.red-highlight mark{
+    background: linear-gradient(to right, #eb3349bb, #ff8c7abb);
+    padding: 3px;
+    border-radius: 5px;
+}
+.blue-highlight mark{
+    background: linear-gradient(to right, #4533ebbb, #7a7cffbb);
+    padding: 3px;
+    border-radius: 5px;
+}
+.green-highlight mark{
+    background: linear-gradient(to right, #33eb70bb, #a0ff7abb);
+    padding: 3px;
+    border-radius: 5px;
+}
+
 .body-wrapper{
-    background-color: #7c797973;
     text-align: left;
 }
 .body{
     font-size: 18px;
     color:#eee
 }
+.body-dark{
+    font-size: 18px;
+    color: #111;
+}
 
 .align-center{
     text-align: center;
-}
-.span-width{
-    width: 100%;
 }
 .small-padding{
     padding: 5px;
@@ -29,4 +67,21 @@
 }
 .large-padding{
     padding: 30px;
+}
+
+.border-top-and-bottom{
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.job-responsibility-list ul{
+
+}
+.job-responsibility-list li{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }

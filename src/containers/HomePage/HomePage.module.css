@@ -4,7 +4,6 @@
     table-layout: auto;
 }
 :local(.Main){
-    padding-bottom: 5px;
 }
 :local(.Info){
     padding:10px;
