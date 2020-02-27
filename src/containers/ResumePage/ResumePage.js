@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import classes from './ResumePage.module.css';
 import SpanningImage from '../../components/UI/SpanningImage/SpanningImage';
 import BellandHowell from '../../assets/images/BellAndHowell.png';
-import Zehrs from '../../assets/images/Zehrs.png';
 import TimelineWrapper from '../../components/Timeline/TimelineWrapper';
 import TimelineElem from '../../components/Timeline/TimelineElem';
 
 class ResumePage extends Component{
-
+    constructor(props){
+        super(props);
+        this.Zehrs = `https://searchlogovector.com/wp-content/uploads/2018/10/zehrs-logo-vector.png`;
+    }
     render(){
         return(
             <div className={classes.Main}>
@@ -19,7 +21,7 @@ class ResumePage extends Component{
                 beginText="Born in December of 1999"
                 >
                     <TimelineElem
-                    backgroundImage={Zehrs} 
+                    backgroundImage={this.Zehrs} 
                     title="Zehrs Markets"
                     startDate="Apr. 2017"
                     endDate="Aug. 2018"
@@ -50,9 +52,17 @@ class ResumePage extends Component{
                     height="auto"
                     startDate="Sep. 2019"
                     >
-                        <div className="body-background">
+                        <div className="body-background red-highlight">
                             <div className="subtitle">
                                 Honours Computer Science (Co-op)
+                            </div>
+                            <div style={{padding:"6px"}}>
+                                At the University of Waterloo, I am studying Computer Science. 
+                                My favourite degree courses that I've taken so far are <mark>CS245</mark> and <mark>CS246E</mark>
+                            </div>
+                            <div style={{padding:"6px"}}>
+                                I really enjoy learning more about Computer science, but that isn't to say it is my only interest. 
+                                For instance, one of my other favourite courses I've taken was <mark>ENGL208B</mark>, intro to Science Fiction literature
                             </div>
                         </div>
                     </TimelineElem>
@@ -86,26 +96,6 @@ class ResumePage extends Component{
                                 </ul>
                             </div>
                         </div>
-                    </TimelineElem>
-                    <TimelineElem
-                    backgroundImage={`https://media.boingboing.net/wp-content/uploads/2018/05/cool-background1.png`}>
-                        <div className="body-background">
-                            <div className="red-highlight job-responsibility-list">
-                                <mark>Test</mark>
-                            </div>
-                        </div>
-                    </TimelineElem>
-                    <TimelineElem
-                    background="#ccc"
-                    filter="blur(0px)"
-                    >
-                        <div className="body-background test3">
-                            
-                            <div className="green-highlight">
-                                <mark>Test</mark>
-                            </div>
-                        </div>
-
                     </TimelineElem>
                 </TimelineWrapper>
             </div>

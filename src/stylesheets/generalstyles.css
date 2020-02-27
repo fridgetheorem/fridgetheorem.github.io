@@ -1,6 +1,15 @@
 .header-wrapper{
     text-align: center;
 }
+.header-background{
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to bottom, #666666aa, #333333aa);
+    width:fit-content;
+    border-radius: 6px;
+    margin-bottom: 3px;
+
+}
 .header{
     color:white;
     font-size: 23px;

@@ -15,6 +15,11 @@ const timelineWrapper = (props) =>{
             <div className={classes.TimelineRect}>
             </div>
             {props.children}
+            <div className={classes.TimelineBegin}>
+                <div className={classes.TimelineBeginText}>
+                    And so many more adventures yet to come...
+                </div>
+            </div>
         </div>
     );
 }
