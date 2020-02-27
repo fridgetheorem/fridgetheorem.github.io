@@ -1,5 +1,5 @@
 {
-  "name": "cameronhadfield.github.io",
+  "name": "mainsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://cameronhadfield.github.io"
+  "homepage": "http://cameronhadfield.github.io/mainsite"
 }
