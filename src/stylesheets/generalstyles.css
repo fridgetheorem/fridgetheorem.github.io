@@ -94,3 +94,9 @@
     padding-top: 0.3em;
     padding-bottom: 0.3em;
 }
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}

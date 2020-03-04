@@ -10,10 +10,11 @@ class Layout extends Component{
         return(
             <div className={classes.Layout}>
                 <NavigationBar></NavigationBar>
-                <Switch>
-                    <Route path="/work" component={ResumePage}/>
-                    <Route path="/" component={HomePage}/>
-                </Switch>
+                <div className={classes.ScrollPane}>
+                    <Switch>
+                        <Route path="/" component={HomePage}/>
+                    </Switch>
+                </div>
             </div>
         );
     }

@@ -1,12 +1,6 @@
 :local(.Taskbar){
-    top: 0;
-    left: 0; 
-    height:auto;
-    width: 100%;
-
-    flex-direction: row;
-    flex-flow: row nowrap;
-    display: flex;
+    height:100vh;
+    width:20vw;
 
     font-size: medium;
 
@@ -24,4 +18,24 @@
 :local(.Link){
     font-size: 15px;
     border-bottom: 1px solid #999;
+}
+:local(.RouteButtons){
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+:local(.profileImage){
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 15px;
+}
+
+@media(max-width:1000px){
+    :local(.Taskbar){
+        height: fit-content;
+        width: 100%;
+        
+    }
+
 }
