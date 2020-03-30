@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavigationElem from './NavigationElem/NavigationElem';
 import NavigationTitle from './NavigationTitle/NavigationTitle';
 import classes from './Navigationbar.module.css';
-import CircleImage from '../../components/UI/CircleImage/CircleImage';
+import CircleImage from '../../../components/UI/CircleImage/CircleImage';
 
 class NavigationPane extends Component{
 

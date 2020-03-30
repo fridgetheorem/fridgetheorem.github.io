@@ -1,18 +1,33 @@
 :local(.SpanningImage){
     width:100%;
     height :100%;
+    position: relative;
 }
 :local(.Image){
     width: 100%;
-    height :500px;
-    opacity: 80%;
+    height: 500px;
+    opacity: 100%;
 
     top: 0px;
     left: 0px;
 
     position: relative;
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 1;
+}
+:local(.Borders){
+    border-top: 10px solid #15244966;
+    border-bottom: 10px solid #15244966;
+}
+
+:local(.Overlay){
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
 }

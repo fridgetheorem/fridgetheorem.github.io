@@ -5,9 +5,19 @@ const spanningImage = (props) =>{
 
     return(
         <div className={classes.SpanningImage} style={props.style}>
-            <img src={props.imagesrc} alt={props.alt} className={classes.Image}/>
-            <div>
-                Testing text
+            <div className={classes.Borders}>
+                <div style={{
+                    backgroundImage: `url(${props.src})`
+                }}
+                className={classes.Image}/>
+                {props.overlayStyle? 
+                <div className={classes.Overlay}
+                style={
+                    {...props.overlayStyle}
+                }> 
+
+                </div>
+                :null}
             </div>
         </div>
     );

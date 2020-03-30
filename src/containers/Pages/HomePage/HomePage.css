@@ -19,7 +19,8 @@
     background-color: #eeeeee66;
     
 
-    overflow:none;
+    overflow-x:hidden;
+    overflow-y:scroll;
 
 }
 
@@ -29,9 +30,43 @@
     text-align: center;
     font-weight: bold;
 
-    margin-top: 40vh;
+    padding-top: 40vh;
 
     font-size: 5em;
 
     color: #ffffff;
+}
+
+.full-page{
+    width:100vw;
+    height:100vh;
+}
+
+.homepage-header{
+    font-family: 'Raleway';
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+
+    padding-top:6px;
+
+    font-size: 5em;
+
+    color: #ffffff;
+}
+
+.homepage-body{
+    font-family: 'Raleway';
+    width:80%;
+    text-align: center;
+    
+
+    font-size:2.1em;
+    color: #fff;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+.section{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

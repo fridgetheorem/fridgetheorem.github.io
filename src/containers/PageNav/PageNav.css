@@ -1,0 +1,45 @@
+.spanningButton{
+    width:100vw;
+    left:0;
+
+    cursor: pointer;
+
+    background-color: #eeeeee44;
+
+    transition: background-color 0.6s;
+
+    overflow: hidden;
+}
+.spanningButton:hover{
+    background-color: #eeeeee77;
+}
+
+.bottom{
+    position: absolute;
+    bottom:0;
+}
+
+.down-arrow-animated{
+    content:"▼";
+    color:white;
+
+    text-align: center;
+
+    font-size: 30px;
+
+    animation:godown 1s linear infinite;
+    height: 50px;
+}
+
+@keyframes godown{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform:translateY(10px);
+    }
+    100%{
+        transform: translate(0);
+    }
+
+}
