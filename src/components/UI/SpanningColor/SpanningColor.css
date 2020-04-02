@@ -1,0 +1,9 @@
+.spanningColorWrapper{
+    width:100%;
+    height:100%;
+}
+.spanningColorContent{
+    padding:10px; 
+    padding-left: 30px;
+    padding-right: 30px;
+}

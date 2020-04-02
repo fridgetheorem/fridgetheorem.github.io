@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './HomePage.css';
 import SpanningImage from '../../../components/UI/SpanningImage/SpanningImage';
+import Parallax from '../../../components/UI/Parallax/Parallax';
+import SpanningColor from '../../../components/UI/SpanningColor/SpanningColor';
+import CardGallery from '../../../components/UI/CardGallery/CardGallery';
+import {PROJECTS as Projects} from './Projects';
 
 class HomePage extends Component{
     render() {
@@ -19,27 +23,60 @@ class HomePage extends Component{
                         overlayStyle={{
                             backgroundColor:"#15244999"
                         }} 
-                        ></SpanningImage>
+                        >
+                            <div className="homepage-header">
+                                A little bit about me
+                            </div>
+                            <div className="homepage-body">
+                                <div className="section">
+                                    My name is Cameron Hadfield and I currently attend the University of Waterloo for Computer Science
+                                </div>
+                                <div className="section">
+                                    Programming is one of my longest sustained passions. 
+                                    I started when my dad got me into BASIC when I was 10 years old,
+                                    and I have been in love with programming ever since!
+                                </div>
+                                <div className="section">
+                                    This is not to say that programming is my only interest though!
+                                    Over time, I have done many different hobbies and sports:
+                                    <ul>
+                                        <li>
+                                            Curling
+                                        </li>
+                                        <li>
+                                            Fixing clocks/watches
+                                        </li>
+                                        <li>
+                                            Trumpet
+                                        </li>
+                                        <li>
+                                            Accordion
+                                        </li>
+                                        <li>
+                                            Writing
+                                        </li>
+                                        <li>
+                                            3D Modelling
+                                        </li>
+                                    </ul>
+                                    Along with many more!
+                                </div>
+                            </div>
+                        </SpanningImage>
                     </div>
                     <div>
-                        <div className="homepage-header">
-                            About Me
-                        </div>
-                        <div className="homepage-body">
-                            <div className="section">
-                                My name is Cameron Hadfield and I currently attend the University of Waterloo for Computer Science
+                        <SpanningColor color="#8860D0">
+                            <div className="homepage-header">
+                                Projects
                             </div>
-                            <div className="section">
-                                I have been programming since I was 10 years old, starting with a BASIC interpreter.
-                                When my dad introduced me to programming, I had only ever played video games, and always wanted to learn how to make my own.
-                                I decided to try my hand at a text-based adventure game in BASIC.
+                            <div className="homepage-body">
+                                <div className="section">
+                                    Here are some of my favourite projects that I have worked on!
+                                </div>
+                                <CardGallery cards={Projects}>
+                                </CardGallery>
                             </div>
-                            <div className="section">
-                                I tried my best, but eventually resolved to building chat bots
-                                that would respond with canned messages instead.
-                                I had no idea of the scope of making a game.
-                            </div>
-                        </div>
+                        </SpanningColor>
                     </div>
                 </div> 
             </div>

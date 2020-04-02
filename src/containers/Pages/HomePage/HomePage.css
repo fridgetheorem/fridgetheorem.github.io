@@ -39,7 +39,7 @@
 
 .full-page{
     width:100vw;
-    height:100vh;
+    min-height:100vh;
 }
 
 .homepage-header{
@@ -48,7 +48,7 @@
     text-align: center;
     font-weight: bold;
 
-    padding-top:6px;
+    padding-top:20px;
 
     font-size: 5em;
 
@@ -69,4 +69,20 @@
 .section{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+@media (max-width: 1000px){
+    .homepage-header{
+        font-size: 2em;
+    }
+    .homepage-body{
+        font-size:1.5em;
+    }
+    .full-page{
+        min-height:30vh;
+    }
+    .homepage-title{
+        height:fit-content;
+        padding-top: 5vh;
+    }
 }

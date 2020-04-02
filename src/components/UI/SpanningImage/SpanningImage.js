@@ -9,7 +9,11 @@ const spanningImage = (props) =>{
                 <div style={{
                     backgroundImage: `url(${props.src})`
                 }}
-                className={classes.Image}/>
+                className={classes.Image}>
+                    <div className={classes.Content}>
+                        {props.children}
+                    </div>
+                </div>
                 {props.overlayStyle? 
                 <div className={classes.Overlay}
                 style={
