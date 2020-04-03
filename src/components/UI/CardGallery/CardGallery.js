@@ -6,15 +6,17 @@ class CardGallery extends Component {
     getRenderedCards = () =>{
         const renderedCards = this.props.cards.map(elem =>{
             return(
-                <Card 
-                    cardFrontStyle={elem.cardFrontStyle} 
-                    cardBackStyle={elem.cardBackStyle} 
-                    cardBack={elem.backContent}
-                    width={elem.width}
-                    height={elem.height}
-                >
-                    {elem.frontContent}
-                </Card>
+                <div className="flex-item">
+                    <Card 
+                        cardFrontStyle={elem.cardFrontStyle} 
+                        cardBackStyle={elem.cardBackStyle} 
+                        cardBack={elem.backContent}
+                        width={elem.width}
+                        height={elem.height}
+                    >
+                        {elem.frontContent}
+                    </Card>
+                </div>
             )
         });
         return renderedCards

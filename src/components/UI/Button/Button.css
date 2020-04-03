@@ -1,0 +1,20 @@
+.button-wrapper{
+    border: 2px solid white;
+    color:white;
+    padding: 4px;
+    min-width: 50px;
+    min-height: 1em;
+
+    cursor: pointer;    
+
+    background-color: transparent;
+    transition: background-color 0.6s;
+
+    position: relative;
+
+    z-index: 100;
+}
+.button-wrapper:hover{
+    background-color: white;
+    color:black
+}

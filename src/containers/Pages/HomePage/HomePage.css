@@ -1,13 +1,13 @@
 .homepage{
     width:100vw;
     height:100vh;
+
+    scroll-behavior: smooth;
 }
 .bg-hue{
     width:100%;
     height:100%;
-    background: rgb(132,206,235);
-    background: radial-gradient(circle, rgba(132,206,235,1) 0%, rgba(86,128,233,1) 70%, rgba(136,96,208,1) 100%);
-
+    background: #111111;
 }
 .overlay{
     position: absolute;
@@ -16,11 +16,12 @@
     right:0;
     bottom: 0;
 
-    background-color: #eeeeee66;
+    background-color: #11111166;
     
 
     overflow-x:hidden;
     overflow-y:scroll;
+    scroll-behavior: smooth;
 
 }
 
@@ -29,17 +30,141 @@
     width:100%;
     text-align: center;
     font-weight: bold;
-
     padding-top: 40vh;
-
+    box-sizing: border-box;
+}
+.homepage-title-text{
     font-size: 5em;
-
     color: #ffffff;
+
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+
+    position: relative;
+    box-sizing: border-box;
+}
+.title-rect-bottom{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background-color: #00c900;
+    
+    transform-origin: right;
+    transform: scaleX(1);
+    animation: scaleWidthRight 3s infinite;
+}
+.title-rect-side-left{
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:5px;
+    background-color: #00c900;
+    transform-origin: bottom;
+    animation: scaleHeightBottom 3s infinite;
+}
+.title-rect-side-right{
+    position: absolute;
+    right:0;
+    top:0;
+
+    height:100%;
+    width:5px;
+    background-color: #00c900;
+    transform-origin: top;
+    animation: scaleHeightTop 3s infinite;
+}
+.title-rect-top{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background-color: #00c900;
+    transform-origin: left;
+    animation: scaleWidthLeft 3s infinite;
+}
+@keyframes scaleWidthLeft{
+    0%{
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    70%{
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+    99%{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    100%{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+}
+@keyframes scaleWidthRight{
+    0%{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    70%{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    99%{
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    100%{
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+}
+@keyframes scaleHeightBottom{
+    0%{
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+    70%{
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+    99%{
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    100%{
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+}
+@keyframes scaleHeightTop{
+    0%{
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    70%{
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
+    99%{
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+    100%{
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
 }
 
 .full-page{
     width:100vw;
-    min-height:100vh;
+    min-height:95vh;
+    box-sizing: border-box;
 }
 
 .homepage-header{
@@ -70,6 +195,12 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.modified-width{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 @media (max-width: 1000px){
     .homepage-header{
@@ -84,5 +215,51 @@
     .homepage-title{
         height:fit-content;
         padding-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98vw;
     }
+    .homepage-title-text{
+        padding:3px;
+        font-size: 4.8em;
+    }
+}
+
+.project-title{
+    font-size: 1.4em;
+    color:white;
+}
+.project-body{
+    font-size: 1em;
+    color:white;
+}
+
+.vertical-padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links{
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    background-color: #0b0b0b;
+    box-shadow: 1px 4px 4px 2px black;
+}
+
+.links a{
+    color:white;
+    text-decoration: underline;
+    font-size: 1.2em;
+
+    transition: background-color 0.3s;
+
+    padding: 5px;
+    border-radius: 3px;
+}
+.links a:hover{
+    background-color:#1b521c;
+    cursor: pointer;
 }

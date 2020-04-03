@@ -43,3 +43,83 @@
     }
 
 }
+
+.hamburger{
+   position: absolute;
+   top: 10px;
+   left: 10px; 
+   height: 40px;
+   width:40px;
+   z-index: 100;
+   padding:5px;
+   box-sizing: border-box;
+
+   border-radius: 2px;
+   
+   transition: background-color 0.4s;
+
+   cursor: pointer;
+}
+.hamburger div{
+    width:30px;
+    height:3px;
+    margin-top:5px;
+    margin-bottom:5px;
+
+    background-color: #eeeeeecc;
+    border-radius: 15px;
+}
+
+.hamburger:hover{
+    background-color: #eeeeee;
+}
+.hamburger:hover div{
+    background-color: #111111;
+}
+
+.menu{
+    position: absolute;
+    top:50px;
+    left:10px;
+    width:300px;
+    background-color: #444444aa;
+
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+
+    z-index: 100;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+
+    transform-origin: top;
+
+    animation: scaleUp 0.5s;
+}
+.menu div{
+    width:100%;
+    color: white;
+    font-size: 1.2em;
+
+    padding: 4px;
+
+    transition: background-color 0.3s;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.menu div:hover{
+    background-color: #eeeeee;
+    color:black;
+}
+@keyframes scaleUp{
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
