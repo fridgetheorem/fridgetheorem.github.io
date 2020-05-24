@@ -191,7 +191,7 @@ class HomePage extends Component{
                                         clicked={
                                             () => 
                                             {
-                                                window.open("https://firebasestorage.googleapis.com/v0/b/personalwebsiteassets.appspot.com/o/documents%2FCameronHResumev2_4.pdf?alt=media&token=12d6a891-a327-46b3-b5e5-a3e0781ba675");
+                                                window.open("https://firebasestorage.googleapis.com/v0/b/personalwebsiteassets.appspot.com/o/documents%2FCameronHResumeF20.pdf?alt=media&token=ce092f54-80c3-4af1-ad59-f83f104ec6d5");
                                                 ReactGA.event({
                                                     category: "Download Resume",
                                                     action: "User pressed the download resume button"
