@@ -70,6 +70,9 @@ class HomePage extends Component{
                                         <li>
                                             3D Modelling
                                         </li>
+                                        <li>
+                                            General electronics meddling
+                                        </li>
                                     </ul>
                                     Along with many more!
                                 </div>
@@ -106,11 +109,12 @@ class HomePage extends Component{
                             <div className="homepage-body">
                                 <div className="section">
                                     <div className="project-title">
-                                        Zehrs
+                                        BDO
                                     </div>
                                     <div>
-                                        At Zehrs, I learned important customer service skills,
-                                        as well as how to work with very quick deadlines
+                                        At BDO I worked as a full stack Microsoft developer. 
+                                        My major undertakings included refactoring element 
+                                        creation dialogs for efficiency and clarity.
                                     </div>
                                 </div>
                                 <div className="section">
@@ -132,6 +136,15 @@ class HomePage extends Component{
                                         At Ctrl V I worked on many different projects.
                                         One of the main projects I worked on was refactoring our
                                         invoice generation system.
+                                    </div>
+                                </div>
+                                <div className="section">
+                                    <div className="project-title">
+                                        Zehrs
+                                    </div>
+                                    <div>
+                                        At Zehrs, I learned important customer service skills,
+                                        as well as how to work with very quick deadlines
                                     </div>
                                 </div>
                                 <div className="section">
@@ -183,7 +196,7 @@ class HomePage extends Component{
                                             }
                                         } 
                                         >
-                                            Send me an email <span role="img">📧</span>   
+                                            Send me an email <span role="img" aria-label="email">📧</span>   
                                         </Button>     
                                     </div>
                                     <div className="section modified-width">
@@ -191,7 +204,7 @@ class HomePage extends Component{
                                         clicked={
                                             () => 
                                             {
-                                                window.open("https://firebasestorage.googleapis.com/v0/b/personalwebsiteassets.appspot.com/o/documents%2FCameronHResumeF20.pdf?alt=media&token=ce092f54-80c3-4af1-ad59-f83f104ec6d5");
+                                                window.open("https://firebasestorage.googleapis.com/v0/b/personalwebsiteassets.appspot.com/o/documents%2FCameronHResumev2_7_2.pdf?alt=media&token=87710f78-03d2-440a-baae-4c2d70449c8d");
                                                 ReactGA.event({
                                                     category: "Download Resume",
                                                     action: "User pressed the download resume button"
@@ -199,7 +212,7 @@ class HomePage extends Component{
                                             }
                                         } 
                                         >
-                                            Check out/download my Resume <span role="img">📜</span>
+                                            Check out/download my Resume <span role="img" aria-label="resume">📜</span>
                                         </Button>     
                                     </div>
                                     <div className="section modified-width">
@@ -215,7 +228,7 @@ class HomePage extends Component{
                                             }
                                         } 
                                         >
-                                            Offer me a job <span role="img">🎉</span>
+                                            Offer me a job <span role="img" aria-label="joboffer">🎉</span>
                                         </Button>     
                                     </div>
                                 </div>
