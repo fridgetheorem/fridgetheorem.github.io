@@ -36,7 +36,7 @@ export const PROJECTS = [
                         window.open("https://gamejolt.com/games/instinct/319996")
                     } 
                     >
-                        Gamejolt <span role="img">🔗</span>
+                        Gamejolt <span role="img" aria-label="link">🔗</span>
                     </Button>
                 </div>
                 <div className="vertical-padding">
@@ -45,7 +45,7 @@ export const PROJECTS = [
                         window.open("https://twitter.com/3204Dev")
                     } 
                     >
-                        Twitter <span role="img">🔗</span>
+                        Twitter <span role="img" aria-label="link">🔗</span>
                     </Button>
                 </div>
             </div>
@@ -136,7 +136,7 @@ export const PROJECTS = [
                     </div>
                     <div className="section">
                         <Button clicked={()=>window.open("https://cdawgvr.itch.io/to-the-beat-vr")}>
-                            itch.io <span role="img">🔗</span>
+                            itch.io <span role="img" aria-label="link">🔗</span>
                         </Button>
                     </div>
                 </div>
@@ -224,7 +224,7 @@ export const PROJECTS = [
                     <Button clicked={
                         ()=>window.open("https://soundcloud.com/antonygried")
                     }>
-                        Soundcloud <span role="img">🔗</span>
+                        Soundcloud <span role="img" aria-label="link">🔗</span>
                     </Button>
                 </div>
             </div>
@@ -271,7 +271,7 @@ export const PROJECTS = [
                     <Button clicked={
                         ()=>window.open("https://github.com/CameronHadfield/cameronhadfield.github.io")
                     }>
-                        Github <span role="img">🔗</span>
+                        Github <span role="img" aria-label="link">🔗</span>
                     </Button>
                 </div>
             </div>

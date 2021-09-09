@@ -1,0 +1,100 @@
+.about-container{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.about-details{
+    width: 100%;
+    border: 2px solid #777;
+    border-radius: 10px;
+    padding: 10px;
+    animation: scale 0.5s ease-in;
+    background: linear-gradient(0deg, rgba(35, 66, 66, 0.6) 0%, rgba(61, 50, 29, 0.6) 100%);
+    background-position-y: center;
+}
+
+.comment-text{
+    color: rgb(219, 219, 219);
+    font-size: 2em;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.jobs-container{
+    border: 2px solid white;
+    margin-top:15px;
+    padding:10px;
+    border-radius: 5px;
+    transform-origin: top center;
+    animation: scale 0.5s ease-in;
+
+    background: linear-gradient(22deg, rgba(100,113,194,1) 0%, rgba(28,120,23,1) 100%);
+}
+
+.projects-container{
+    border: 2px solid white;
+    margin-top:15px;
+    padding:10px;
+    border-radius: 5px;
+    transform-origin: top center;
+    animation: scale 0.5s ease-in;
+
+    background: linear-gradient(22deg, rgba(100,113,194,1) 0%, rgba(28,120,23,1) 100%);
+
+    display:flex;
+
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.projects-container>div{
+    border: 2px solid #eeeeee; 
+    padding:10px;
+    flex:1;
+    max-width: 300px;
+    max-height:400px;
+    text-align:center;
+    background: linear-gradient(180deg, rgba(35, 66, 66, 0.6) 0%, rgba(61, 50, 29, 0.6) 100%);
+
+    color: white;
+
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position:relative;
+}
+.projects-container>div:last-of-type(1){
+    margin-right: 0;
+}
+.projects-container>div:nth-of-type(1){
+    margin-left: 0;
+}
+
+.projects-container Button{
+    position:absolute;
+    bottom: 0;
+}
+@keyframes scale{
+    0%{
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(0.5, 0.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.lazy-list{
+   padding-right:8px; 
+   font-size: 0.8em;
+   text-align:left;
+}
+.lazy-list > li{
+    padding-top:6px;
+    padding-bottom:6px;
+}

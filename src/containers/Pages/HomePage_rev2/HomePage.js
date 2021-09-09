@@ -35,7 +35,7 @@ class HomePage extends Component{
                             backgroundColor:"#105716cc"
                         }} 
                         >
-                            <a name="About" />
+                            <a name="About" href="#about"/>
                             <div className="homepage-header">
                                 A little bit about me
                             </div>
@@ -80,7 +80,7 @@ class HomePage extends Component{
                         </SpanningImage>
                     </div>
                     <div>
-                        <a name="Projects" />
+                        <a name="Projects" href="#projects"/>
                         <SpanningColor color="#111111">
                             <div className="homepage-header">
                                 Personal Projects
@@ -96,7 +96,7 @@ class HomePage extends Component{
                         </SpanningColor>
                     </div>
                     <div>
-                        <a name="Work" />
+                        <a name="Work" href="#work"/>
                         <SpanningImage
                         src="https://firebasestorage.googleapis.com/v0/b/personalwebsiteassets.appspot.com/o/images%2FIMG_20190220_161428.jpg?alt=media&token=4163ae1a-9ed6-48be-a484-d481332864b8"
                         overlayStyle={{
@@ -159,7 +159,7 @@ class HomePage extends Component{
                                     </div>
                                 </div>
                             </div>
-                            <a name="Awards" />
+                            <a name="Awards" href="#awards"/>
                             <div className="homepage-header">
                                 Awards
                             </div>
@@ -172,7 +172,7 @@ class HomePage extends Component{
                         </SpanningImage>
                     </div>
                     <div>
-                        <a name="Resume" />
+                        <a name="Resume" href="resume"/>
                         <SpanningColor color="#111111">
                             <div className="homepage-header">
                                 Resume

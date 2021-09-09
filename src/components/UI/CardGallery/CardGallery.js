@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Card from './Card/Card';
+import SlideCard from './Card/SlideCard';
 import './CardGallery.css';
 
 class CardGallery extends Component {
     getRenderedCards = () =>{
+        if(!this.props.cards) return;
         const renderedCards = this.props.cards.map(elem =>{
             return(
                 <div className="flex-item">
-                    <Card 
+                    <SlideCard 
                         cardFrontStyle={elem.cardFrontStyle} 
                         cardBackStyle={elem.cardBackStyle} 
                         cardBack={elem.backContent}
@@ -15,7 +16,7 @@ class CardGallery extends Component {
                         height={elem.height}
                     >
                         {elem.frontContent}
-                    </Card>
+                    </SlideCard>
                 </div>
             )
         });
@@ -24,7 +25,7 @@ class CardGallery extends Component {
     render() {
         return (
             <div className="card-gallery">
-                {this.getRenderedCards()}
+                {this.props.cards?this.getRenderedCards():this.props.children}
             </div>
         )
     }

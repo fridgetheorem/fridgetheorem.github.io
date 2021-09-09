@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './Parallax.module.css';
 
 const parallax = (props) =>{
-    console.log(props.backgroundImage);
     return(
         <div className={classes.ParallaxWrapper}
             style={{
@@ -12,7 +11,7 @@ const parallax = (props) =>{
             <div  
             className={classes.ParallaxImage}
             style={{
-                backgroundImage:`url(${props.backgroundImage})`,
+                backgroundImage:`url(${props.src})`,
                 height:`${props.height}`,
                 ...props.imageStyle
             }}/>

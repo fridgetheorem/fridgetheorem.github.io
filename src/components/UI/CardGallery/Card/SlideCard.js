@@ -1,25 +1,22 @@
 import React, {Component} from 'react';
 import './Card.css';
 
-export class Card extends Component{
-
+class SlideCard extends Component{
     render(){
         return(
-            <div className="flip-card"
+            <div className="slide-card"
             style={{
                 height:this.props.height,
-                width:this.props.width,
-                marginLeft:"10px",
-                marginRight:"10px",
+                width:this.props.width
             }}>
-                <div className="flip-card-inner">
-                    <div className="flip-card-front"
+                <div className="slide-card-inner">
+                    <div className="slide-card-front"
                     style={
                         {...this.props.cardFrontStyle}
                     }>
                         {this.props.children}
                     </div>
-                    <div className="flip-card-back"
+                    <div className="slide-card-back"
                     style={
                         {...this.props.cardBackStyle}
                     }>
@@ -30,3 +27,5 @@ export class Card extends Component{
         );
     }
 }
+
+export default SlideCard;

@@ -12,7 +12,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.7s;
   transform-style: preserve-3d;
 }
 
@@ -48,4 +48,62 @@
   color: white;
   transform: rotateY(180deg);
   border-radius: 10px;
+}
+
+/* The slide card */
+.slide-card {
+
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+
+  cursor:help;
+}
+
+/* This container is needed to position the front and back side */
+.slide-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal slide when you move the mouse over the flip box container */
+.slide-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  transition: all 0.6s;
+  transform-origin: bottom center;
+}
+
+.slide-card:hover .slide-card-front{
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+.slide-card-back {
+  z-index: -1;
+  position: relative;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+
+  transition: box-shadow 0.5s
+}
+.slide-card:hover .slide-card-back{
+  box-shadow: 0px 0px 5px 2px #ffffff;
+}
+
+/* Position the front and back side */
+.slide-card-front, .slide-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
 }
