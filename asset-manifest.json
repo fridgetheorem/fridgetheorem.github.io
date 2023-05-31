@@ -1,26 +1,16 @@
 {
   "files": {
-    "main.css": "/mainsite/static/css/main.4cc05ef3.chunk.css",
-    "main.js": "/mainsite/static/js/main.886fe9ad.chunk.js",
-    "main.js.map": "/mainsite/static/js/main.886fe9ad.chunk.js.map",
-    "runtime-main.js": "/mainsite/static/js/runtime-main.6185365d.js",
-    "runtime-main.js.map": "/mainsite/static/js/runtime-main.6185365d.js.map",
-    "static/js/2.efa15312.chunk.js": "/mainsite/static/js/2.efa15312.chunk.js",
-    "static/js/2.efa15312.chunk.js.map": "/mainsite/static/js/2.efa15312.chunk.js.map",
-    "index.html": "/mainsite/index.html",
-    "precache-manifest.4c2f96a49811f27234d99b51dbea8cc1.js": "/mainsite/precache-manifest.4c2f96a49811f27234d99b51dbea8cc1.js",
-    "service-worker.js": "/mainsite/service-worker.js",
-    "static/css/main.4cc05ef3.chunk.css.map": "/mainsite/static/css/main.4cc05ef3.chunk.css.map",
-    "static/js/2.efa15312.chunk.js.LICENSE": "/mainsite/static/js/2.efa15312.chunk.js.LICENSE",
-    "static/media/BellAndHowell.png": "/mainsite/static/media/BellAndHowell.b56df871.png",
-    "static/media/Waterloo1.jpg": "/mainsite/static/media/Waterloo1.832ca428.jpg",
-    "static/media/Zehrs.png": "/mainsite/static/media/Zehrs.c2e5a106.png",
-    "static/media/logo.svg": "/mainsite/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.ec09b0a6.css",
+    "main.js": "/static/js/main.7204fd3e.js",
+    "static/js/787.bdf112ef.chunk.js": "/static/js/787.bdf112ef.chunk.js",
+    "static/media/FoxFace_rotated.svg": "/static/media/FoxFace_rotated.02f98712deb352ad7b8f718e3c615651.svg",
+    "index.html": "/index.html",
+    "main.ec09b0a6.css.map": "/static/css/main.ec09b0a6.css.map",
+    "main.7204fd3e.js.map": "/static/js/main.7204fd3e.js.map",
+    "787.bdf112ef.chunk.js.map": "/static/js/787.bdf112ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6185365d.js",
-    "static/js/2.efa15312.chunk.js",
-    "static/css/main.4cc05ef3.chunk.css",
-    "static/js/main.886fe9ad.chunk.js"
+    "static/css/main.ec09b0a6.css",
+    "static/js/main.7204fd3e.js"
   ]
 }
