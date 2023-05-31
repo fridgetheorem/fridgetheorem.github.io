@@ -1,0 +1,12 @@
+[
+  {
+    "origin": ["https://cameronhadfield.github.io"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  },
+  {
+    "origin": ["http://localhost:3000"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]
