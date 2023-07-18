@@ -81,7 +81,7 @@ const TimelinePage = () => {
     return(
         <PageContainer>
             <h1>
-                I'm Cameron Hadfield
+                I'm Cameron
             </h1>
             <FullWidthDiv background="#90ADC6">
                 <em><h2>Who are you?</h2></em>
