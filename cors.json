@@ -1,6 +1,6 @@
 [
   {
-    "origin": ["https://cameronhadfield.github.io"],
+    "origin": ["https://fridgetheorem.github.io"],
     "method": ["GET"],
     "maxAgeSeconds": 3600
   },

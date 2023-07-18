@@ -200,7 +200,7 @@ const TimelinePage = () => {
                             Find me on LinkedIn: <a href="https://linkedin.com/in/cameronhadfield">/in/cameronhadfield</a>
                         </p>
                         <p>
-                            Or maybe Github: <a href="https://github.com/cameronhadfield">/cameronhadfield</a>
+                            Or maybe Github: <a href="https://github.com/fridgetheorem">/fridgetheorem</a>
                         </p>
                         <p>
                             I look forward to meeting you!
@@ -209,7 +209,7 @@ const TimelinePage = () => {
                 </TwoColumn>
             </FullWidthDiv>
             <h4> This site was made with React.JS </h4>
-            <h4> Hosted on <a href="https://github.com/cameronhadfield">Github!</a> </h4>
+            <h4> Hosted on <a href="https://github.com/fridgetheorem">Github!</a> </h4>
         </PageContainer>
     );
 }
